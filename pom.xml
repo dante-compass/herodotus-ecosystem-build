@@ -7,7 +7,7 @@
     <groupId>cn.herodotus.stirrup</groupId>
     <artifactId>herodotus-ecosystem-build</artifactId>
     <name>${project.artifactId}</name>
-    <version>4.0.2.0-M3</version>
+    <version>4.0.2.0-M4</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Build</description>
