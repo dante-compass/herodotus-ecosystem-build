@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.herodotus.stirrup</groupId>
+    <artifactId>herodotus-ecosystem-build</artifactId>
+    <name>${project.artifactId}</name>
+    <version>4.0.2.0-M3</version>
+    <packaging>pom</packaging>
+
+    <description>Herodotus Ecosystem Build</description>
+
+    <url>https://github.com/dante-compass/herodotus-ecosystem-build</url>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Herodotus Software</name>
+        <url>https://www.herodotus.cn</url>
+    </organization>
+
+    <scm>
+        <url>https://github.com/dante-compass/herodotus-ecosystem-build</url>
+        <connection>scm:git:git@github.com:dante-compass/herodotus-ecosystem-build.git</connection>
+        <developerConnection>scm:git:git@github.com:dante-compass/herodotus-ecosystem-build.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>herodotus-ecosystem</id>
+            <name>码匠君</name>
+            <email>herodotus@aliyun.com</email>
+            <organization>Dante Compass</organization>
+            <organizationUrl>https://github.com/dante-compass</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>herodotus-ecosystem-dependencies</module>
+        <module>herodotus-ecosystem-parent</module>
+    </modules>
+
+</project>
