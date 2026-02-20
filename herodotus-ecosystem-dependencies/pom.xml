@@ -87,7 +87,7 @@
         <mvel2.version>2.5.2.Final</mvel2.version>
         <nacos.version>3.1.1</nacos.version>
         <opengauss-jdbc.version>6.0.3-og</opengauss-jdbc.version>
-        <operaton-bpm-spring-boot-starter-rest.version>2.0.0-M2</operaton-bpm-spring-boot-starter-rest.version>
+        <operaton-bpm-spring-boot-starter-rest.version>2.0.0-M3</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>3.9.1</p6spy.version>
         <redisson.version>4.2.0</redisson.version>
