@@ -7,13 +7,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.2</version>
+        <version>4.0.3</version>
         <relativePath/>
     </parent>
 
     <groupId>cn.herodotus.ecosystem</groupId>
     <artifactId>herodotus-ecosystem-parent</artifactId>
-    <version>4.0.2.0-M4</version>
+    <version>4.0.3.0-RC1</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Parent</description>
@@ -61,7 +61,7 @@
         <grpc-bom.version>1.79.0</grpc-bom.version>
         <io.github.openfeign.querydsl.version>7.1</io.github.openfeign.querydsl.version>
         <protobuf-bom.version>4.33.5</protobuf-bom.version>
-        <spring-boot-dependencies.version>4.0.2</spring-boot-dependencies.version>
+        <spring-boot-dependencies.version>4.0.3</spring-boot-dependencies.version>
 
         <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
         <mapstruct-processor.version>1.6.3</mapstruct-processor.version>
