@@ -96,7 +96,7 @@
         <software.amazon.awssdk.version>2.41.33</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.43.4</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.1</springdoc.version>
-        <spring-boot-admin-dependencies.version>4.0.0</spring-boot-admin-dependencies.version>
+        <spring-boot-admin-dependencies.version>4.0.1</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
