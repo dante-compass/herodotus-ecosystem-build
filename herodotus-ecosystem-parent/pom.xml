@@ -58,7 +58,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <grpc-bom.version>1.79.0</grpc-bom.version>
+        <grpc.version>1.79.0</grpc.version>
         <io.github.openfeign.querydsl.version>7.1</io.github.openfeign.querydsl.version>
         <protobuf-bom.version>4.33.5</protobuf-bom.version>
         <spring-boot-dependencies.version>4.0.3</spring-boot-dependencies.version>
@@ -204,7 +204,7 @@
                             <plugin kind="binary-maven">
                                 <groupId>io.grpc</groupId>
                                 <artifactId>protoc-gen-grpc-java</artifactId>
-                                <version>${grpc-bom.version}</version>
+                                <version>${grpc.version}</version>
                             </plugin>
                         </plugins>
                         <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
