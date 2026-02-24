@@ -523,6 +523,11 @@
                 <artifactId>protobuf-java</artifactId>
                 <version>${protobuf-bom.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java-util</artifactId>
+                <version>${protobuf-bom.version}</version>
+            </dependency>
             <!--特殊处理, 防止被 sct 中的依赖影响版本控制-->
             <!--sct 中的 <springdoc.version> 会干扰当前配置，从而引入低版本 springdoc，导致系统无法启动-->
             <dependency>
