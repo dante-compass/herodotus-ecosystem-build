@@ -122,7 +122,7 @@
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <error_prone_annotations.version>2.47.0</error_prone_annotations.version>
+        <error_prone_annotations.version>2.48.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.43</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
