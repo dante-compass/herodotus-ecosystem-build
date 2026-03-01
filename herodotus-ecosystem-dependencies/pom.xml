@@ -101,7 +101,7 @@
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
         <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.1-20260224.155625</weixin-java.version>
+        <weixin-java.version>4.8.1-20260228.223852</weixin-java.version>
         <webauthn4j.version>0.31.0.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
