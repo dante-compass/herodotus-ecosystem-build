@@ -68,7 +68,6 @@
         <commons-io.version>2.21.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
         <fastjson2.version>2.0.61</fastjson2.version>
-        <grpc-spring-boot-starter.version>3.1.0.RELEASE</grpc-spring-boot-starter.version>
         <guava.version>33.5.0-jre</guava.version>
         <hutool.version>7.0.0-M4</hutool.version>
         <hypersistence-utils-hibernate-71.version>3.15.2</hypersistence-utils-hibernate-71.version>
@@ -95,7 +94,7 @@
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
         <software.amazon.awssdk.version>2.42.4</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.43.4</software.amazon.awssdk.crt.version>
-        <springdoc.version>3.0.1</springdoc.version>
+        <springdoc.version>3.0.2</springdoc.version>
         <spring-boot-admin-dependencies.version>4.0.1</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
@@ -324,16 +323,6 @@
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2-extension</artifactId>
                 <version>${fastjson2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.devh</groupId>
-                <artifactId>grpc-client-spring-boot-starter</artifactId>
-                <version>${grpc-spring-boot-starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.devh</groupId>
-                <artifactId>grpc-server-spring-boot-starter</artifactId>
-                <version>${grpc-spring-boot-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
