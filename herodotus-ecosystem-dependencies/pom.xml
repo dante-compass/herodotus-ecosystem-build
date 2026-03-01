@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.3.0-RC1</version>
+        <version>4.0.3.0-RC2</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.658.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.662.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <archetype-packaging.verison>3.4.1</archetype-packaging.verison>
@@ -68,7 +68,6 @@
         <commons-io.version>2.21.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
         <fastjson2.version>2.0.61</fastjson2.version>
-        <grpc-spring-boot-starter.version>3.1.0.RELEASE</grpc-spring-boot-starter.version>
         <guava.version>33.5.0-jre</guava.version>
         <hutool.version>7.0.0-M4</hutool.version>
         <hypersistence-utils-hibernate-71.version>3.15.2</hypersistence-utils-hibernate-71.version>
@@ -87,21 +86,22 @@
         <mvel2.version>2.5.2.Final</mvel2.version>
         <nacos.version>3.1.1</nacos.version>
         <opengauss-jdbc.version>6.0.3-og</opengauss-jdbc.version>
-        <operaton-bpm-spring-boot-starter-rest.version>2.0.0-M2</operaton-bpm-spring-boot-starter-rest.version>
+        <operaton-bpm-spring-boot-starter-rest.version>2.0.0-M3</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>3.9.1</p6spy.version>
         <redisson.version>4.2.0</redisson.version>
         <skywalking.version>9.5.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.41.33</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.42.4</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.43.4</software.amazon.awssdk.crt.version>
-        <springdoc.version>3.0.1</springdoc.version>
-        <spring-boot-admin-dependencies.version>4.0.0</spring-boot-admin-dependencies.version>
+        <springdoc.version>3.0.2</springdoc.version>
+        <spring-boot-admin-dependencies.version>4.0.1</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
+        <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.1-20260209.141916</weixin-java.version>
+        <weixin-java.version>4.8.1-20260228.223852</weixin-java.version>
         <webauthn4j.version>0.31.0.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
@@ -112,16 +112,16 @@
         <mdi__font.version>7.4.47</mdi__font.version>
         <quasar.version>2.18.6</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
-        <sweetalert2.verison>11.26.19</sweetalert2.verison>
+        <sweetalert2.verison>11.26.20</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.28</vue.version>
+        <vue.version>3.5.29</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.9</asm.version>
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <error_prone_annotations.version>2.47.0</error_prone_annotations.version>
+        <error_prone_annotations.version>2.48.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.43</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
@@ -183,30 +183,9 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>com.alicp.jetcache</groupId>
-                <artifactId>jetcache-bom</artifactId>
-                <version>${jetcache.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-bom</artifactId>
-                <version>${mybatis-plus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>io.github.openfeign.querydsl</groupId>
-                <artifactId>querydsl-bom</artifactId>
-                <version>${io.github.openfeign.querydsl.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.github.victools</groupId>
-                <artifactId>jsonschema-generator-bom</artifactId>
-                <version>${jsonschema-generator.version}</version>
+                <groupId>io.grpc</groupId>
+                <artifactId>grpc-bom</artifactId>
+                <version>${grpc.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -218,21 +197,9 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>com.influxdb</groupId>
-                <artifactId>influxdb-client</artifactId>
-                <version>${influxdb-client.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.influxdb</groupId>
-                <artifactId>flux-dsl</artifactId>
-                <version>${influxdb-client.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.grpc</groupId>
-                <artifactId>grpc-bom</artifactId>
-                <version>${grpc-bom.version}</version>
+                <groupId>org.springframework.grpc</groupId>
+                <artifactId>spring-grpc-dependencies</artifactId>
+                <version>${spring-grpc-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -252,6 +219,46 @@
                 <groupId>cn.hutool.v7</groupId>
                 <artifactId>hutool-bom</artifactId>
                 <version>${hutool.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.influxdb</groupId>
+                <artifactId>influxdb-client</artifactId>
+                <version>${influxdb-client.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.influxdb</groupId>
+                <artifactId>flux-dsl</artifactId>
+                <version>${influxdb-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.victools</groupId>
+                <artifactId>jsonschema-generator-bom</artifactId>
+                <version>${jsonschema-generator.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.github.openfeign.querydsl</groupId>
+                <artifactId>querydsl-bom</artifactId>
+                <version>${io.github.openfeign.querydsl.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-bom</artifactId>
+                <version>${mybatis-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alicp.jetcache</groupId>
+                <artifactId>jetcache-bom</artifactId>
+                <version>${jetcache.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -316,16 +323,6 @@
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2-extension</artifactId>
                 <version>${fastjson2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.devh</groupId>
-                <artifactId>grpc-client-spring-boot-starter</artifactId>
-                <version>${grpc-spring-boot-starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.devh</groupId>
-                <artifactId>grpc-server-spring-boot-starter</artifactId>
-                <version>${grpc-spring-boot-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
@@ -513,6 +510,11 @@
             <dependency>
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java</artifactId>
+                <version>${protobuf-bom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java-util</artifactId>
                 <version>${protobuf-bom.version}</version>
             </dependency>
             <!--特殊处理, 防止被 sct 中的依赖影响版本控制-->
