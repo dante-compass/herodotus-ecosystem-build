@@ -60,7 +60,6 @@
         <alipay-sdk-java.version>4.40.674.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
-        <archetype-packaging.verison>3.4.1</archetype-packaging.verison>
         <bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
         <bcprov-jdk18on.version>1.83</bcprov-jdk18on.version>
         <commons-collections4.version>4.5.0</commons-collections4.version>
@@ -107,6 +106,7 @@
 
         <!--Webjars 主要用于内置基于 thymeleaf 的自定义页面-->
         <bootstrap.version>5.3.8</bootstrap.version>
+        <estree-walker.version>3.0.3</estree-walker.version>
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
@@ -278,11 +278,6 @@
                 <groupId>org.owasp.antisamy</groupId>
                 <artifactId>antisamy</artifactId>
                 <version>${antisamy.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>${archetype-packaging.verison}</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
@@ -496,6 +491,11 @@
                 <groupId>org.webjars.npm</groupId>
                 <artifactId>vue</artifactId>
                 <version>${vue.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars.npm</groupId>
+                <artifactId>estree-walker</artifactId>
+                <version>${estree-walker.version}</version>
             </dependency>
 
             <!--以下为特殊处理, 统一版本处理漏洞等-->

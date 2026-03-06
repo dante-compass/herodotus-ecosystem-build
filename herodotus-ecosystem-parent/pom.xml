@@ -58,6 +58,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+        <archetype-packaging.verison>3.4.1</archetype-packaging.verison>
         <grpc.version>1.79.0</grpc.version>
         <io.github.openfeign.querydsl.version>7.1</io.github.openfeign.querydsl.version>
         <protobuf-bom.version>4.34.0</protobuf-bom.version>
@@ -69,6 +70,16 @@
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <protobuf-maven-plugin.version>5.0.1</protobuf-maven-plugin.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>${archetype-packaging.verison}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <pluginManagement>
