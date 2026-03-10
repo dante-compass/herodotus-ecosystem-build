@@ -134,7 +134,7 @@
         <okio.version>3.16.4</okio.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
-        <zookeeper.verison>3.9.4</zookeeper.verison>
+        <zookeeper.verison>3.9.5</zookeeper.verison>
     </properties>
 
     <dependencyManagement>
