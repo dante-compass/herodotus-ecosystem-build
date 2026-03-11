@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.674.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.675.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
@@ -74,7 +74,7 @@
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.7.8</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
-        <json-schema-validator.version>3.0.0</json-schema-validator.version>
+        <json-schema-validator.version>3.0.1</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
