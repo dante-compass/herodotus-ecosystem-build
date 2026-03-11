@@ -14,7 +14,7 @@
     <groupId>cn.herodotus.stirrup</groupId>
     <artifactId>herodotus-ecosystem-build</artifactId>
     <name>${project.artifactId}</name>
-    <version>4.0.3.0-RC2</version>
+    <version>4.0.3.0</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Build</description>
