@@ -131,7 +131,7 @@
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.3-->
         <kryo.version>5.6.2</kryo.version>
         <objenesis.version>3.5</objenesis.version>
-        <okio.version>3.16.4</okio.version>
+        <okio.version>3.17.0</okio.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
         <zookeeper.verison>3.9.5</zookeeper.verison>
