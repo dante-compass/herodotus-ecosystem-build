@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.3.0</version>
+        <version>4.0.4.0</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.675.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.700.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
@@ -68,7 +68,7 @@
         <commons-text.version>1.15.0</commons-text.version>
         <fastjson2.version>2.0.61</fastjson2.version>
         <guava.version>33.5.0-jre</guava.version>
-        <hutool.version>7.0.0-M4</hutool.version>
+        <hutool.version>7.0.0-M5</hutool.version>
         <hypersistence-utils-hibernate-71.version>3.15.2</hypersistence-utils-hibernate-71.version>
         <influxdb-client.version>7.5.0</influxdb-client.version>
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
@@ -91,7 +91,7 @@
         <redisson.version>4.3.0</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.42.10</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.42.16</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.43.8</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.2</springdoc.version>
         <spring-boot-admin-dependencies.version>4.0.2</spring-boot-admin-dependencies.version>
@@ -100,7 +100,7 @@
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
         <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.1-20260310.172740</weixin-java.version>
+        <weixin-java.version>4.8.2.B</weixin-java.version>
         <webauthn4j.version>0.31.1.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
@@ -110,9 +110,9 @@
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
-        <quasar.version>2.18.6</quasar.version>
+        <quasar.version>2.18.7</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
-        <sweetalert2.verison>11.26.22</sweetalert2.verison>
+        <sweetalert2.verison>11.26.23</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
         <vue.version>3.5.30</vue.version>
 
@@ -123,15 +123,15 @@
         <dom4j.version>2.2.0</dom4j.version>
         <error_prone_annotations.version>2.48.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
-        <hutool5.version>5.8.43</hutool5.version>
+        <hutool5.version>5.8.44</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <jaxb-impl.version>4.0.6</jaxb-impl.version>
+        <jaxb-impl.version>4.0.7</jaxb-impl.version>
         <javassist.version>3.30.2-GA</javassist.version>
         <joda-time.version>2.14.1</joda-time.version>
-        <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.3-->
+        <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
         <kryo.version>5.6.2</kryo.version>
         <objenesis.version>3.5</objenesis.version>
-        <okio.version>3.16.4</okio.version>
+        <okio.version>3.17.0</okio.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
         <zookeeper.verison>3.9.5</zookeeper.verison>
