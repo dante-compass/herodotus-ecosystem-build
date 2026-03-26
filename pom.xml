@@ -7,14 +7,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.5</version>
         <relativePath/>
     </parent>
 
     <groupId>cn.herodotus.stirrup</groupId>
     <artifactId>herodotus-ecosystem-build</artifactId>
     <name>${project.artifactId}</name>
-    <version>4.0.4.1</version>
+    <version>4.0.5.0</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Build</description>
