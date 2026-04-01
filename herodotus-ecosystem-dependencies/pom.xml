@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.5.0</version>
+        <version>4.0.5.1</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -110,7 +110,7 @@
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
-        <quasar.version>2.19.1</quasar.version>
+        <quasar.version>2.19.2</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.24</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
