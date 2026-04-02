@@ -76,6 +76,7 @@
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.1</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
+        <langchain4j.version>1.12.2</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
@@ -267,6 +268,13 @@
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-bom</artifactId>
                 <version>${jetcache.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>dev.langchain4j</groupId>
+                <artifactId>langchain4j-bom</artifactId>
+                <version>${langchain4j.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
