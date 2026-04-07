@@ -103,7 +103,7 @@
         <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.2-20260322.214559</weixin-java.version>
-        <webauthn4j.version>0.31.1.RELEASE</webauthn4j.version>
+        <webauthn4j.version>0.31.2.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
         <!--Webjars 主要用于内置基于 thymeleaf 的自定义页面-->
@@ -116,7 +116,7 @@
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.24</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.31</vue.version>
+        <vue.version>3.5.32</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.9</asm.version>
