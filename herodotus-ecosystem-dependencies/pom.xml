@@ -101,6 +101,7 @@
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
         <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
+        <swagger-core.version>2.2.46</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.2-20260322.214559</weixin-java.version>
         <webauthn4j.version>0.31.2.RELEASE</webauthn4j.version>
@@ -435,6 +436,11 @@
                 <groupId>org.dromara.sms4j</groupId>
                 <artifactId>sms4j-spring-boot-starter</artifactId>
                 <version>${sms4j-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>${swagger-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
