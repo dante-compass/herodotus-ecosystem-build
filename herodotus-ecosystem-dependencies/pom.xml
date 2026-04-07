@@ -162,6 +162,19 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--如果其他 import 方式的 pom 中存在与当前 dependencies 中相同的版本定义，那么需要将当前 dependencies 中版本控制的 import 放在前面，整个工程中依赖的版本就会以当前 dependencies 中的版本为主-->
+            <!--例如：spring-cloud-tencent-dependencies 中也有 springdoc.version 定义，所以本 dependencies 就需要将 springdoc-openapi-bom 放在 spring-cloud-tencent-dependencies 前面-->
+            <!--相当于本 dependencies 优先控制了 springdoc 版本，那么 spring-cloud-tencent 也会依赖当前 dependencies 中定义的 springdoc 版本 -->
+            <!--相反的，如果 spring-cloud-tencent-dependencies 在前，整个工程就会以 spring-cloud-tencent-dependencies 中定义 springdoc.version 版本为主，当前 dependencies 中定义的 springdoc.version 就会失效-->
+            <!--下面的 grpc-bom 也是相同原理-->
+            <!--springdoc 需要在 spring-cloud-tencent-dependencies 前面，这样才能以当前 dependencies 中的 springdoc 版本控制为主-->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-bom</artifactId>
+                <version>${springdoc.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>com.tencent.cloud</groupId>
                 <artifactId>spring-cloud-tencent-dependencies</artifactId>
@@ -176,13 +189,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi</artifactId>
-                <version>${springdoc.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--grpc-bom 需要在 spring-grpc-dependencies 前面，这样才能以当前 dependencies 中的 grpc-bom 版本控制为主-->
             <dependency>
                 <groupId>io.grpc</groupId>
                 <artifactId>grpc-bom</artifactId>
@@ -197,7 +204,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--spring grpc 需要在 grpc-bom 后面，这样才能以当前 dependencies 中的 grpc 版本控制 spring grpc 中的 grpc 版本-->
             <dependency>
                 <groupId>org.springframework.grpc</groupId>
                 <artifactId>spring-grpc-dependencies</artifactId>
@@ -532,28 +538,6 @@
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java-util</artifactId>
                 <version>${protobuf-bom.version}</version>
-            </dependency>
-            <!--特殊处理, 防止被 sct 中的依赖影响版本控制-->
-            <!--sct 中的 <springdoc.version> 会干扰当前配置，从而引入低版本 springdoc，导致系统无法启动-->
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webflux-api</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
-                <version>${springdoc.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
