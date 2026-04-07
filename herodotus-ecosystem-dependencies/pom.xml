@@ -127,7 +127,6 @@
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.44</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <jaxb-impl.version>4.0.7</jaxb-impl.version>
         <javassist.version>3.30.2-GA</javassist.version>
         <joda-time.version>2.14.1</joda-time.version>
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
@@ -596,12 +595,6 @@
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
                 <version>${jaxb-api.version}</version>
-            </dependency>
-            <!--Camunda 7.X 新版本缺少该依赖-->
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>${jaxb-impl.version}</version>
             </dependency>
             <!--统一控制javassist版本，去除大量重复版本依赖-->
             <dependency>
