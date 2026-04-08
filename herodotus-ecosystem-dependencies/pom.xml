@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.5.1</version>
+        <version>4.0.5.2</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.705.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.720.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
@@ -76,6 +76,7 @@
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.1</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
+        <langchain4j.version>1.12.2</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
@@ -88,20 +89,22 @@
         <operaton-bpm-spring-boot-starter-rest.version>2.0.0</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>3.9.1</p6spy.version>
-        <redisson.version>4.3.0</redisson.version>
+        <redisson.version>4.3.1</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.42.25</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.42.30</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.44.0</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.2</springdoc.version>
+        <spring-ai-bom.version>2.0.0-M4</spring-ai-bom.version>
         <spring-boot-admin-dependencies.version>4.0.2</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
         <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
+        <swagger-core.version>2.2.46</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.2-20260322.214559</weixin-java.version>
-        <webauthn4j.version>0.31.1.RELEASE</webauthn4j.version>
+        <webauthn4j.version>0.31.2.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
         <!--Webjars 主要用于内置基于 thymeleaf 的自定义页面-->
@@ -110,22 +113,21 @@
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
-        <quasar.version>2.19.2</quasar.version>
+        <quasar.version>2.19.3</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.24</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.31</vue.version>
+        <vue.version>3.5.32</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.9</asm.version>
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <error_prone_annotations.version>2.48.0</error_prone_annotations.version>
+        <error_prone_annotations.version>2.49.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.44</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <jaxb-impl.version>4.0.7</jaxb-impl.version>
         <javassist.version>3.30.2-GA</javassist.version>
         <joda-time.version>2.14.1</joda-time.version>
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
@@ -161,6 +163,19 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--如果其他 import 方式的 pom 中存在与当前 dependencies 中相同的版本定义，那么需要将当前 dependencies 中版本控制的 import 放在前面，整个工程中依赖的版本就会以当前 dependencies 中的版本为主-->
+            <!--例如：spring-cloud-tencent-dependencies 中也有 springdoc.version 定义，所以本 dependencies 就需要将 springdoc-openapi-bom 放在 spring-cloud-tencent-dependencies 前面-->
+            <!--相当于本 dependencies 优先控制了 springdoc 版本，那么 spring-cloud-tencent 也会依赖当前 dependencies 中定义的 springdoc 版本 -->
+            <!--相反的，如果 spring-cloud-tencent-dependencies 在前，整个工程就会以 spring-cloud-tencent-dependencies 中定义 springdoc.version 版本为主，当前 dependencies 中定义的 springdoc.version 就会失效-->
+            <!--下面的 grpc-bom 也是相同原理-->
+            <!--springdoc 需要在 spring-cloud-tencent-dependencies 前面，这样才能以当前 dependencies 中的 springdoc 版本控制为主-->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-bom</artifactId>
+                <version>${springdoc.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>com.tencent.cloud</groupId>
                 <artifactId>spring-cloud-tencent-dependencies</artifactId>
@@ -175,13 +190,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi</artifactId>
-                <version>${springdoc.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+            <!--grpc-bom 需要在 spring-grpc-dependencies 前面，这样才能以当前 dependencies 中的 grpc-bom 版本控制为主-->
             <dependency>
                 <groupId>io.grpc</groupId>
                 <artifactId>grpc-bom</artifactId>
@@ -200,6 +209,13 @@
                 <groupId>org.springframework.grpc</groupId>
                 <artifactId>spring-grpc-dependencies</artifactId>
                 <version>${spring-grpc-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-bom</artifactId>
+                <version>${spring-ai-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -259,6 +275,13 @@
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-bom</artifactId>
                 <version>${jetcache.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>dev.langchain4j</groupId>
+                <artifactId>langchain4j-bom</artifactId>
+                <version>${langchain4j.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -415,6 +438,11 @@
                 <version>${sms4j-spring-boot-starter.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>${swagger-core.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>transmittable-thread-local</artifactId>
                 <version>${transmittable-thread-local.version}</version>
@@ -517,28 +545,6 @@
                 <artifactId>protobuf-java-util</artifactId>
                 <version>${protobuf-bom.version}</version>
             </dependency>
-            <!--特殊处理, 防止被 sct 中的依赖影响版本控制-->
-            <!--sct 中的 <springdoc.version> 会干扰当前配置，从而引入低版本 springdoc，导致系统无法启动-->
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webflux-api</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
-                <version>${springdoc.version}</version>
-            </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-bom</artifactId>
@@ -580,12 +586,6 @@
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
                 <version>${jaxb-api.version}</version>
-            </dependency>
-            <!--Camunda 7.X 新版本缺少该依赖-->
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>${jaxb-impl.version}</version>
             </dependency>
             <!--统一控制javassist版本，去除大量重复版本依赖-->
             <dependency>
