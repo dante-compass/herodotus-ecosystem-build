@@ -60,8 +60,8 @@
         <alipay-sdk-java.version>4.40.748.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
-        <bcpkix-jdk18on.version>1.83</bcpkix-jdk18on.version>
-        <bcprov-jdk18on.version>1.83</bcprov-jdk18on.version>
+        <bcpkix-jdk18on.version>1.84</bcpkix-jdk18on.version>
+        <bcprov-jdk18on.version>1.84</bcprov-jdk18on.version>
         <commons-collections4.version>4.5.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.21.0</commons-io.version>
