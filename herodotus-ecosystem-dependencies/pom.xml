@@ -74,7 +74,7 @@
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.7.8</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
-        <json-schema-validator.version>3.0.1</json-schema-validator.version>
+        <json-schema-validator.version>3.0.2</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
         <langchain4j.version>1.13.0</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
