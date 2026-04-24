@@ -92,7 +92,7 @@
         <redisson.version>4.3.1</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.42.37</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.42.40</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.45.1</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.3</springdoc.version>
         <spring-ai-bom.version>2.0.0-M4</spring-ai-bom.version>
@@ -100,7 +100,7 @@
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.1.0-2024.0.3</spring-cloud-tencent-dependencies.version>
-        <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
+        <spring-grpc-dependencies.version>1.0.3</spring-grpc-dependencies.version>
         <swagger-core.version>2.2.48</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.2-20260420.104332</weixin-java.version>
