@@ -64,7 +64,7 @@
         <bcprov-jdk18on.version>1.84</bcprov-jdk18on.version>
         <commons-collections4.version>4.5.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
-        <commons-io.version>2.21.0</commons-io.version>
+        <commons-io.version>2.22.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
         <fastjson2.version>2.0.61</fastjson2.version>
         <guava.version>33.6.0-jre</guava.version>
