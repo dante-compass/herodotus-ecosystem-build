@@ -559,12 +559,6 @@
                 <artifactId>dom4j</artifactId>
                 <version>${dom4j.version}</version>
             </dependency>
-            <!--统一控制error_prone_annotations版本，去除大量重复版本依赖-->
-            <dependency>
-                <groupId>com.google.errorprone</groupId>
-                <artifactId>error_prone_annotations</artifactId>
-                <version>${error_prone_annotations.version}</version>
-            </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-bom</artifactId>
@@ -601,17 +595,6 @@
                 <groupId>org.objenesis</groupId>
                 <artifactId>objenesis</artifactId>
                 <version>${objenesis.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.squareup.okio</groupId>
-                <artifactId>okio</artifactId>
-                <version>${okio.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.squareup.okio</groupId>
-                <artifactId>okio-jvm</artifactId>
-                <version>${okio.version}</version>
-                <scope>runtime</scope>
             </dependency>
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
