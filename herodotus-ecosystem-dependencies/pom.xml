@@ -124,7 +124,6 @@
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <error_prone_annotations.version>2.49.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.44</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
@@ -133,7 +132,6 @@
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
         <kryo.version>5.6.2</kryo.version>
         <objenesis.version>3.5</objenesis.version>
-        <okio.version>3.17.0</okio.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
         <zookeeper.verison>3.9.5</zookeeper.verison>
