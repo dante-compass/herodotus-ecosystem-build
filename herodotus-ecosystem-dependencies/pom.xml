@@ -103,7 +103,7 @@
         <spring-grpc-dependencies.version>1.0.3</spring-grpc-dependencies.version>
         <swagger-core.version>2.2.49</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.2-20260507.134402</weixin-java.version>
+        <weixin-java.version>4.8.2-20260509.102920</weixin-java.version>
         <webauthn4j.version>0.31.5.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
