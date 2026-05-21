@@ -61,7 +61,7 @@
         <archetype-packaging.verison>3.4.1</archetype-packaging.verison>
         <grpc.version>1.81.0</grpc.version>
         <io.github.openfeign.querydsl.version>7.1</io.github.openfeign.querydsl.version>
-        <protobuf-bom.version>4.34.1</protobuf-bom.version>
+        <protobuf-bom.version>4.35.0</protobuf-bom.version>
         <spring-boot-dependencies.version>4.0.6</spring-boot-dependencies.version>
 
         <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
