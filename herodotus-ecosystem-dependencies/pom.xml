@@ -126,7 +126,7 @@
         <dom4j.version>2.2.0</dom4j.version>
         <error_prone_annotations.version>2.49.0</error_prone_annotations.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
-        <hutool5.version>5.8.44</hutool5.version>
+        <hutool5.version>5.8.46</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <javassist.version>3.31.0-GA</javassist.version>
         <joda-time.version>2.14.2</joda-time.version>
