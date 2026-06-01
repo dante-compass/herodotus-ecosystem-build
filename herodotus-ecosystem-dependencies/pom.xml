@@ -125,6 +125,7 @@
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
         <error_prone_annotations.version>2.49.0</error_prone_annotations.version>
+        <HdrHistogram.version>2.2.2</HdrHistogram.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.46</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
@@ -563,6 +564,12 @@
                 <groupId>com.google.errorprone</groupId>
                 <artifactId>error_prone_annotations</artifactId>
                 <version>${error_prone_annotations.version}</version>
+            </dependency>
+            <!--统一控制HdrHistogram版本，去除大量重复版本依赖-->
+            <dependency>
+                <groupId>org.hdrhistogram</groupId>
+                <artifactId>HdrHistogram</artifactId>
+                <version>${HdrHistogram.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
