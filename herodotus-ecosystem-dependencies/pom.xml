@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.7.0</version>
+        <version>4.0.7.1</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -117,7 +117,7 @@
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.25</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.35</vue.version>
+        <vue.version>3.5.37</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.9</asm.version>
