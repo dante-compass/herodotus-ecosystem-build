@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.6.5</version>
+        <version>4.0.7.0</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.833.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.843.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.84</bcpkix-jdk18on.version>
@@ -69,14 +69,14 @@
         <fastjson2.version>2.0.62</fastjson2.version>
         <guava.version>33.6.0-jre</guava.version>
         <hutool.version>7.0.0-M6</hutool.version>
-        <hypersistence-utils-hibernate-71.version>3.15.2</hypersistence-utils-hibernate-71.version>
+        <hypersistence-utils-hibernate-71.version>3.15.3</hypersistence-utils-hibernate-71.version>
         <influxdb3-java.version>1.9.0</influxdb3-java.version>
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.8.0.RC</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
-        <json-schema-validator.version>3.0.3</json-schema-validator.version>
+        <json-schema-validator.version>3.0.4</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
-        <langchain4j.version>1.15.1</langchain4j.version>
+        <langchain4j.version>1.16.2</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
@@ -89,22 +89,22 @@
         <operaton-bpm-spring-boot-starter-rest.version>2.1.1</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>3.9.1</p6spy.version>
-        <redisson.version>4.4.0</redisson.version>
+        <redisson.version>4.5.0</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.46.0</software.amazon.awssdk.version>
-        <software.amazon.awssdk.crt.version>0.46.1</software.amazon.awssdk.crt.version>
+        <software.amazon.awssdk.version>2.46.8</software.amazon.awssdk.version>
+        <software.amazon.awssdk.crt.version>0.47.0</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.3</springdoc.version>
-        <spring-ai-bom.version>2.0.0-M8</spring-ai-bom.version>
+        <spring-ai-bom.version>2.0.0-RC2</spring-ai-bom.version>
         <spring-boot-admin-dependencies.version>4.0.4</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2-RC1</spring-cloud-tencent-dependencies.version>
-        <spring-grpc-dependencies.version>1.0.3</spring-grpc-dependencies.version>
+        <spring-grpc-dependencies.version>1.1.0</spring-grpc-dependencies.version>
         <swagger-core.version>2.2.50</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.3-20260601.221544</weixin-java.version>
-        <webauthn4j.version>0.31.6.RELEASE</webauthn4j.version>
+        <weixin-java.version>4.8.4-20260609.153254</weixin-java.version>
+        <webauthn4j.version>0.31.7.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
         <!--Webjars 主要用于内置基于 thymeleaf 的自定义页面-->
@@ -124,7 +124,7 @@
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <error_prone_annotations.version>2.49.0</error_prone_annotations.version>
+        <error_prone_annotations.version>2.50.0</error_prone_annotations.version>
         <HdrHistogram.version>2.2.2</HdrHistogram.version>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.46</hutool5.version>
