@@ -212,6 +212,7 @@
                             <importDependency>
                                 <groupId>com.google.protobuf</groupId>
                                 <artifactId>protobuf-java</artifactId>
+                                <version>${protobuf-java.version}</version>
                             </importDependency>
                         </importDependencies>
                     </configuration>
