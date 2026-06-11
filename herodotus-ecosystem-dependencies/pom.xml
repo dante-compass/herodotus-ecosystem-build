@@ -503,17 +503,6 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson2.version}</version>
             </dependency>
-            <!--统一控制protobuf版本，防止版本不统一导致的 grpc 代码生成错误-->
-            <dependency>
-                <groupId>com.google.protobuf</groupId>
-                <artifactId>protobuf-java</artifactId>
-                <version>${protobuf-bom.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.protobuf</groupId>
-                <artifactId>protobuf-java-util</artifactId>
-                <version>${protobuf-bom.version}</version>
-            </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-bom</artifactId>
