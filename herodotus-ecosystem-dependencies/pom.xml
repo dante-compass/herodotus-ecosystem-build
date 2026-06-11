@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.0.7.0</version>
+        <version>4.0.7.1</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -70,7 +70,7 @@
         <guava.version>33.6.0-jre</guava.version>
         <hutool.version>7.0.0-M6</hutool.version>
         <hypersistence-utils-hibernate-71.version>3.15.3</hypersistence-utils-hibernate-71.version>
-        <influxdb3-java.version>1.9.0</influxdb3-java.version>
+        <influxdb3-java.version>1.10.0</influxdb3-java.version>
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.8.0.RC</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
@@ -100,7 +100,7 @@
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2-RC1</spring-cloud-tencent-dependencies.version>
-        <spring-grpc-dependencies.version>1.1.0</spring-grpc-dependencies.version>
+        <spring-grpc-dependencies.version>1.0.3</spring-grpc-dependencies.version>
         <swagger-core.version>2.2.50</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.4-20260609.153254</weixin-java.version>
@@ -117,7 +117,7 @@
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.25</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.35</vue.version>
+        <vue.version>3.5.37</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.9</asm.version>
