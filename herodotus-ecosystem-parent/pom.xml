@@ -13,7 +13,7 @@
 
     <groupId>cn.herodotus.ecosystem</groupId>
     <artifactId>herodotus-ecosystem-parent</artifactId>
-    <version>4.1.0.0</version>
+    <version>4.1.0.1</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Parent</description>
@@ -59,10 +59,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <archetype-packaging.verison>3.4.1</archetype-packaging.verison>
-        <io.github.openfeign.querydsl.version>7.3.0</io.github.openfeign.querydsl.version>
+        <io.github.openfeign.querydsl.version>7.4.0</io.github.openfeign.querydsl.version>
         <spring-boot-dependencies.version>4.1.0</spring-boot-dependencies.version>
 
-        <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
+        <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
         <mapstruct-processor.version>1.6.3</mapstruct-processor.version>
         <maven-archetype-plugin.version>3.4.1</maven-archetype-plugin.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
