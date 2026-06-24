@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.1.0.1</version>
+        <version>4.1.0.2</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.852.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.865.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.84</bcpkix-jdk18on.version>
@@ -74,7 +74,7 @@
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.8.0.RC</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
-        <json-schema-validator.version>3.0.4</json-schema-validator.version>
+        <json-schema-validator.version>3.0.5</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
         <langchain4j.version>1.16.3</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
@@ -92,7 +92,7 @@
         <redisson.version>4.6.1</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.46.15</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.46.17</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.47.1</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.3</springdoc.version>
         <spring-ai-bom.version>2.0.0</spring-ai-bom.version>
@@ -100,9 +100,9 @@
         <spring-cloud-dependencies.version>2025.1.2</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2-RC1</spring-cloud-tencent-dependencies.version>
-        <swagger-core.version>2.2.51</swagger-core.version>
+        <swagger-core.version>2.2.52</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.4-20260612.150047</weixin-java.version>
+        <weixin-java.version>4.8.4-20260623.211820</weixin-java.version>
         <webauthn4j.version>0.31.7.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
@@ -127,7 +127,7 @@
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.46</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <javassist.version>3.31.0-GA</javassist.version>
+        <javassist.version>3.32.0-GA</javassist.version>
         <joda-time.version>2.14.2</joda-time.version>
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
         <kryo.version>5.6.2</kryo.version>
