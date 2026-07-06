@@ -76,7 +76,7 @@
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.5</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
-        <langchain4j.version>1.17.0</langchain4j.version>
+        <langchain4j.version>1.17.1</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
