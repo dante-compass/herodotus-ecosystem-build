@@ -82,7 +82,7 @@
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
         <loki-protobuf.version>0.0.2_pb4.33.0</loki-protobuf.version>
         <mybatis.version>3.5.19</mybatis.version>
-        <mybatis-plus.version>3.5.16</mybatis-plus.version>
+        <mybatis-plus.version>3.5.17</mybatis-plus.version>
         <mvel2.version>2.5.2.Final</mvel2.version>
         <nacos.version>3.2.2</nacos.version>
         <opengauss-jdbc.version>6.0.3-og</opengauss-jdbc.version>
