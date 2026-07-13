@@ -96,13 +96,13 @@
         <software.amazon.awssdk.crt.version>0.47.3</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.3</springdoc.version>
         <spring-ai-bom.version>2.0.0</spring-ai-bom.version>
-        <spring-boot-admin-dependencies.version>4.1.1</spring-boot-admin-dependencies.version>
+        <spring-boot-admin-dependencies.version>4.1.2</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.2</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2-RC1</spring-cloud-tencent-dependencies.version>
         <swagger-core.version>2.2.52</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.4-20260704.211650</weixin-java.version>
+        <weixin-java.version>4.8.4-20260711.174359</weixin-java.version>
         <webauthn4j.version>0.31.7.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
