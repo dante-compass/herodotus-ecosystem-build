@@ -13,7 +13,7 @@
 
     <groupId>cn.herodotus.ecosystem</groupId>
     <artifactId>herodotus-ecosystem-parent</artifactId>
-    <version>4.1.0.3</version>
+    <version>4.1.0.4</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Parent</description>
@@ -190,6 +190,8 @@
                         <!-- 注意 Github Action 中的 server-id 也要与此保持一致 -->
                         <publishingServerId>sonatype-nexus-staging</publishingServerId>
                         <autoPublish>true</autoPublish>
+                        <!-- 发布时仅生成 MD5, SHA1，SHA256和SHA512将不会生成 -->
+                        <checksums>required</checksums>
                     </configuration>
                 </plugin>
                 <plugin>
