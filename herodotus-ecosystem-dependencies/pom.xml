@@ -76,7 +76,7 @@
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.6</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
-        <langchain4j.version>1.17.2</langchain4j.version>
+        <langchain4j.version>1.18.0</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.0.3</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
@@ -92,7 +92,7 @@
         <redisson.version>4.6.1</redisson.version>
         <skywalking.version>9.6.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.48.0</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.48.3</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.47.3</software.amazon.awssdk.crt.version>
         <springdoc.version>3.0.3</springdoc.version>
         <spring-ai-bom.version>2.0.0</spring-ai-bom.version>
