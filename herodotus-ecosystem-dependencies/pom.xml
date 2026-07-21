@@ -99,7 +99,6 @@
         <spring-boot-admin-dependencies.version>4.1.2</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.2</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
-        <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2-RC1</spring-cloud-tencent-dependencies.version>
         <swagger-core.version>2.2.52</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <weixin-java.version>4.8.5-20260720.111348</weixin-java.version>
@@ -171,13 +170,6 @@
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-bom</artifactId>
                 <version>${springdoc.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.tencent.cloud</groupId>
-                <artifactId>spring-cloud-tencent-dependencies</artifactId>
-                <version>${spring-cloud-tencent-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
