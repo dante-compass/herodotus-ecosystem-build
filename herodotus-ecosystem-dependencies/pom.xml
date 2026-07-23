@@ -118,6 +118,7 @@
         <vue.version>3.5.40</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
+        <asm.version>9.10.1</asm.version>
         <audience-annotations.version>0.15.1</audience-annotations.version>
         <classgraph.version>4.8.184</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
@@ -487,6 +488,13 @@
             </dependency>
 
             <!--以下为特殊处理, 统一版本处理漏洞等-->
+            <dependency>
+                <groupId>org.ow2.asm</groupId>
+                <artifactId>asm-bom</artifactId>
+                <version>${asm.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!--fastjson 1.x 兼容包，不保证 100% 兼容-->
             <dependency>
                 <groupId>com.alibaba</groupId>
