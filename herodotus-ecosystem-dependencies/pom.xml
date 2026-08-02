@@ -78,7 +78,7 @@
         <justauth.verison>2.0.0</justauth.verison>
         <langchain4j.version>1.18.1</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
-        <loki-logback-appender.version>2.1.0-rc1</loki-logback-appender.version>
+        <loki-logback-appender.version>2.1.0</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
         <loki-protobuf.version>1.0.0_pb4.35.0</loki-protobuf.version>
         <mybatis.version>3.5.19</mybatis.version>
