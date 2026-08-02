@@ -94,7 +94,7 @@
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
         <software.amazon.awssdk.version>2.50.2</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.48.3</software.amazon.awssdk.crt.version>
-        <springdoc.version>3.0.3</springdoc.version>
+        <springdoc.version>3.1.0</springdoc.version>
         <spring-ai-bom.version>2.0.0</spring-ai-bom.version>
         <spring-boot-admin-dependencies.version>4.1.2</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.2</spring-cloud-dependencies.version>
