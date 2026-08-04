@@ -128,7 +128,7 @@
         <hutool5.version>5.8.47</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <javassist.version>3.32.0-GA</javassist.version>
-        <joda-time.version>2.14.2</joda-time.version>
+        <joda-time.version>2.14.3</joda-time.version>
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
         <kryo.version>5.6.2</kryo.version>
         <objenesis.version>3.5</objenesis.version>
