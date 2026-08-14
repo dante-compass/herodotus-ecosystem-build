@@ -62,7 +62,7 @@
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.85</bcpkix-jdk18on.version>
         <bcprov-jdk18on.version>1.85</bcprov-jdk18on.version>
-        <commons-collections4.version>4.5.0</commons-collections4.version>
+        <commons-collections4.version>4.6.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
@@ -90,7 +90,7 @@
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>4.1.2</p6spy.version>
         <redisson.version>4.7.0</redisson.version>
-        <skywalking.version>9.6.0</skywalking.version>
+        <skywalking.version>9.7.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
         <software.amazon.awssdk.version>2.51.3</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.48.3</software.amazon.awssdk.crt.version>
