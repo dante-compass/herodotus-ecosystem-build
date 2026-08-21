@@ -31,13 +31,13 @@
 
 <h1 align="center"> 支持本项目除了 Fork、Pull 和 Download Zip，还可以点右上角 "Star"！</h1>
 
-# [一]、工程介绍
+# 一、工程介绍
 
 `Herodotus Ecosystem Build` 为 Herodotus 软件生态 Maven 依赖版本、插件配置的统一管理工程。
 
 通过该工程，统一管控开源版本和企业版本以及各生态产品的依赖，以保证各产品整体的体系化和一致性，降低依赖复杂度，减少因依赖引起的不必要的维护投入。
 
-# [二]、工程结构
+# 二、工程结构
 
 ```shell
 herodotus-ecosystem-build
@@ -45,14 +45,14 @@ herodotus-ecosystem-build
 └── herodotus-ecosystem-parent -- 软件生态核心 Maven Parent
 ```
 
-# [三]、价值意义
+# 三、价值意义
 
 单独提取出 `herodotus-ecosystem-dependencies` 和 `herodotus-ecosystem-parent`，实现多工程的 Maven 依赖版本统一管理。 避免因 `dependencies` 放置在某一工程内，出现 `dependencies` 仅能以继承方式使用，引起多个工程开发编译必须顺序构建才能使用的情况。 使用 `herodotus-ecosystem-dependencies` 和 `herodotus-ecosystem-parent` 后，即使有模块依赖，各个工程也可以更独立和灵活的进行开发
 
 - 在多模块工程中，将该工程 `dependencies` 或者 BOM 对应的 pom.xml 中，以 `herodotus-ecosystem-dependencies` 作为 Parent，可实现工程内所有的依赖的版本统一化管理，并且模块关系清晰还可以作为单独 BOM 发布。
 - 在该工程的根目录下的 pom.xml 中，以 `herodotus-ecosystem-parent` 作为 Parent，可实现继承于 Spring Boot 的所有构建及依赖管理。
 
-# [四]、关注我
+# 四、关注我
 
 <table align="center">
   <tr>
