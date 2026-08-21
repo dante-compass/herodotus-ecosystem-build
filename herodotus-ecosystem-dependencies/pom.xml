@@ -121,7 +121,7 @@
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.10.1</asm.version>
         <audience-annotations.version>0.15.1</audience-annotations.version>
-        <classgraph.version>4.8.192</classgraph.version>
+        <classgraph.version>4.8.193</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
         <error_prone_annotations.version>2.50.0</error_prone_annotations.version>
         <HdrHistogram.version>2.2.2</HdrHistogram.version>
