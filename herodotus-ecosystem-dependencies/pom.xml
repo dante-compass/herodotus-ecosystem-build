@@ -102,7 +102,7 @@
         <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2</spring-cloud-tencent-dependencies.version>
         <swagger-core.version>2.2.54</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.5-20260818.151216</weixin-java.version>
+        <weixin-java.version>4.8.6.B</weixin-java.version>
         <webauthn4j.version>0.31.9.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
@@ -112,7 +112,7 @@
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
-        <quasar.version>2.26.0</quasar.version>
+        <quasar.version>2.25.1</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.25</sweetalert2.verison>
         <tabler.version>1.4.0</tabler.version>
