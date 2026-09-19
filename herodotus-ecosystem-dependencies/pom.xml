@@ -116,7 +116,7 @@
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.25</sweetalert2.verison>
         <tabler.version>1.5.1</tabler.version>
-        <vue.version>3.5.42</vue.version>
+        <vue.version>3.5.43</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.10.1</asm.version>
@@ -136,7 +136,7 @@
         <objenesis.version>3.6</objenesis.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
-        <zookeeper.verison>3.9.5</zookeeper.verison>
+        <zookeeper.verison>3.9.6</zookeeper.verison>
     </properties>
 
     <dependencyManagement>
