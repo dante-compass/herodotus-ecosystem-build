@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.herodotus.ecosystem</groupId>
         <artifactId>herodotus-ecosystem-parent</artifactId>
-        <version>4.1.1.0</version>
+        <version>4.1.1.1</version>
         <relativePath>../herodotus-ecosystem-parent/pom.xml</relativePath>
     </parent>
 
@@ -57,53 +57,53 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.967.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.1014.ALL</alipay-sdk-java.version>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
-        <bcpkix-jdk18on.version>1.85</bcpkix-jdk18on.version>
-        <bcprov-jdk18on.version>1.85</bcprov-jdk18on.version>
+        <bcpkix-jdk18on.version>1.86</bcpkix-jdk18on.version>
+        <bcprov-jdk18on.version>1.86</bcprov-jdk18on.version>
         <commons-collections4.version>4.6.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
-        <fastjson2.version>2.0.64</fastjson2.version>
+        <fastjson2.version>2.0.65</fastjson2.version>
         <guava.version>33.7.1-jre</guava.version>
         <hutool.version>7.0.0-M7</hutool.version>
-        <hypersistence-utils-hibernate-73.version>3.15.5</hypersistence-utils-hibernate-73.version>
-        <influxdb3-java.version>1.10.0</influxdb3-java.version>
+        <hypersistence-utils-hibernate-73.version>3.16.0</hypersistence-utils-hibernate-73.version>
+        <influxdb3-java.version>1.11.1</influxdb3-java.version>
         <jasypt-spring-boot-starter.version>4.0.4</jasypt-spring-boot-starter.version>
         <jetcache.version>2.8.0.RC</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.7</json-schema-validator.version>
         <justauth.verison>2.0.0</justauth.verison>
-        <langchain4j.version>1.19.0</langchain4j.version>
+        <langchain4j.version>1.20.0</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.1.0</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
         <loki-protobuf.version>1.0.0_pb4.35.0</loki-protobuf.version>
         <mybatis.version>3.5.19</mybatis.version>
         <mybatis-plus.version>3.5.17</mybatis-plus.version>
-        <mvel2.version>2.5.2.Final</mvel2.version>
-        <nacos.version>3.2.3</nacos.version>
+        <mvel2.version>2.5.4.Final</mvel2.version>
+        <nacos.version>3.2.4</nacos.version>
         <opengauss-jdbc.version>6.0.3-og</opengauss-jdbc.version>
-        <operaton-bpm-spring-boot-starter-rest.version>2.2.0-M2</operaton-bpm-spring-boot-starter-rest.version>
+        <operaton-bpm-spring-boot-starter-rest.version>2.2.0-RC1</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>4.1.2</p6spy.version>
         <redisson.version>4.7.0</redisson.version>
-        <skywalking.version>9.6.0</skywalking.version>
+        <skywalking.version>9.7.0</skywalking.version>
         <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
-        <software.amazon.awssdk.version>2.54.0</software.amazon.awssdk.version>
+        <software.amazon.awssdk.version>2.55.5</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.48.4</software.amazon.awssdk.crt.version>
-        <springdoc.version>3.1.0</springdoc.version>
+        <springdoc.version>3.1.1</springdoc.version>
         <spring-ai-bom.version>2.0.1</spring-ai-bom.version>
-        <spring-boot-admin-dependencies.version>4.1.2</spring-boot-admin-dependencies.version>
+        <spring-boot-admin-dependencies.version>4.1.3</spring-boot-admin-dependencies.version>
         <spring-cloud-dependencies.version>2025.1.3</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2025.1.0.0</spring-cloud-alibaba-dependencies.version>
-        <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.0.2</spring-cloud-tencent-dependencies.version>
-        <swagger-core.version>2.2.54</swagger-core.version>
+        <spring-cloud-tencent-dependencies.version>2.1.2.0-2025.1.1</spring-cloud-tencent-dependencies.version>
+        <swagger-core.version>2.2.55</swagger-core.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
-        <weixin-java.version>4.8.5-20260818.151216</weixin-java.version>
-        <webauthn4j.version>0.31.9.RELEASE</webauthn4j.version>
+        <weixin-java.version>4.8.6-20260919.232150</weixin-java.version>
+        <webauthn4j.version>0.31.10.RELEASE</webauthn4j.version>
         <zxing.version>3.5.4</zxing.version>
 
         <!--Webjars 主要用于内置基于 thymeleaf 的自定义页面-->
@@ -112,30 +112,31 @@
         <inter-ui.version>4.1.1</inter-ui.version>
         <jquery.version>3.7.1</jquery.version>
         <mdi__font.version>7.4.47</mdi__font.version>
-        <quasar.version>2.25.1</quasar.version>
+        <quasar.version>2.33.2</quasar.version>
         <sm-crypto-v2.version>1.15.1</sm-crypto-v2.version>
         <sweetalert2.verison>11.26.25</sweetalert2.verison>
-        <tabler.version>1.4.0</tabler.version>
-        <vue.version>3.5.41</vue.version>
+        <tabler.version>1.6.0</tabler.version>
+        <vue.version>3.5.43</vue.version>
 
         <!--以下为特殊处理, 统一依赖的不同版本、处理依赖漏洞等。-->
         <asm.version>9.10.1</asm.version>
         <audience-annotations.version>0.15.1</audience-annotations.version>
-        <classgraph.version>4.8.193</classgraph.version>
+        <classgraph.version>4.8.196</classgraph.version>
         <dom4j.version>2.2.0</dom4j.version>
         <error_prone_annotations.version>2.50.0</error_prone_annotations.version>
         <HdrHistogram.version>2.2.2</HdrHistogram.version>
+        <httpclient.verison>4.5.14</httpclient.verison>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
         <hutool5.version>5.8.47</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
-        <javassist.version>3.32.0-GA</javassist.version>
-        <joda-time.version>2.14.3</joda-time.version>
+        <javassist.version>3.33.0-GA</javassist.version>
+        <joda-time.version>2.14.4</joda-time.version>
         <!--redisson 依赖 Kryo 版本为 5.6.2，去除版本控制后会变成 4.0.4-->
         <kryo.version>5.6.2</kryo.version>
         <objenesis.version>3.6</objenesis.version>
         <snappy-java.version>1.1.10.8</snappy-java.version>
         <!--fix CVE-2024-51504 -->
-        <zookeeper.verison>3.9.5</zookeeper.verison>
+        <zookeeper.verison>3.9.6</zookeeper.verison>
     </properties>
 
     <dependencyManagement>
@@ -536,6 +537,11 @@
                 <groupId>org.hdrhistogram</groupId>
                 <artifactId>HdrHistogram</artifactId>
                 <version>${HdrHistogram.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.verison}</version>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
