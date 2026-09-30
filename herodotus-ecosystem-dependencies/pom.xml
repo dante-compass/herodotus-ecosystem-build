@@ -67,7 +67,7 @@
         <commons-io.version>2.22.0</commons-io.version>
         <commons-text.version>1.15.0</commons-text.version>
         <fastjson2.version>2.0.65</fastjson2.version>
-        <guava.version>33.7.1-jre</guava.version>
+        <guava.version>33.7.2-jre</guava.version>
         <hutool.version>7.0.0-M7</hutool.version>
         <hypersistence-utils-hibernate-73.version>3.16.0</hypersistence-utils-hibernate-73.version>
         <influxdb3-java.version>1.11.1</influxdb3-java.version>
