@@ -127,7 +127,7 @@
         <HdrHistogram.version>2.2.2</HdrHistogram.version>
         <httpclient.verison>4.5.14</httpclient.verison>
         <!--sms4j 依赖 hutool 5，但更新频率低，在此进行统一升级和版本控制-->
-        <hutool5.version>5.8.47</hutool5.version>
+        <hutool5.version>5.8.48</hutool5.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <javassist.version>3.33.0-GA</javassist.version>
         <joda-time.version>2.15.0</joda-time.version>
