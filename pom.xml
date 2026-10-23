@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>cn.herodotus.stirrup</groupId>
+    <groupId>cn.herodotus.ecosystem</groupId>
     <artifactId>herodotus-ecosystem-build</artifactId>
     <name>${project.artifactId}</name>
     <version>4.1.2.0</version>
