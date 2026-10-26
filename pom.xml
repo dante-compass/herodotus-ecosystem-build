@@ -7,14 +7,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.1.1</version>
+        <version>4.1.2</version>
         <relativePath/>
     </parent>
 
-    <groupId>cn.herodotus.stirrup</groupId>
+    <groupId>cn.herodotus.ecosystem</groupId>
     <artifactId>herodotus-ecosystem-build</artifactId>
     <name>${project.artifactId}</name>
-    <version>4.1.1.1</version>
+    <version>4.1.2.0</version>
     <packaging>pom</packaging>
 
     <description>Herodotus Ecosystem Build</description>
@@ -49,6 +49,15 @@
             <organizationUrl>https://github.com/dante-compass</organizationUrl>
         </developer>
     </developers>
+
+    <properties>
+        <java.version>25</java.version>
+        <resource.delimiter>@</resource.delimiter>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
     <build>
         <plugins>
