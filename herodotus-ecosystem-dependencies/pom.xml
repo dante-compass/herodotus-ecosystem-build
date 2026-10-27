@@ -62,6 +62,7 @@
         <antisamy.version>1.7.8</antisamy.version>
         <bcpkix-jdk18on.version>1.86</bcpkix-jdk18on.version>
         <bcprov-jdk18on.version>1.86</bcprov-jdk18on.version>
+        <bcutil-jdk18on.version>1.86</bcutil-jdk18on.version>
         <commons-collections4.version>4.6.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.22.0</commons-io.version>
@@ -277,6 +278,11 @@
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk18on</artifactId>
                 <version>${bcprov-jdk18on.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcutil-jdk18on</artifactId>
+                <version>${bcutil-jdk18on.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
