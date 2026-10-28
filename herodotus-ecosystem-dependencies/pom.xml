@@ -260,6 +260,11 @@
                 <version>${alipay-sdk-java.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.dromara.anduin</groupId>
+                <artifactId>dromara-anduin</artifactId>
+                <version>${anduin.verison}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.madgag</groupId>
                 <artifactId>animated-gif-lib</artifactId>
                 <version>${animated-gif-lib.version}</version>
@@ -338,11 +343,6 @@
                 <groupId>com.networknt</groupId>
                 <artifactId>json-schema-validator</artifactId>
                 <version>${json-schema-validator.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.dromara.justauth</groupId>
-                <artifactId>JustAuth</artifactId>
-                <version>${justauth.verison}</version>
             </dependency>
             <dependency>
                 <groupId>net.logstash.logback</groupId>
