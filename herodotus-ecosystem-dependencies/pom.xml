@@ -85,7 +85,7 @@
         <mybatis.version>3.6.0</mybatis.version>
         <mybatis-plus.version>3.5.18.1</mybatis-plus.version>
         <mvel2.version>2.6.0.Final</mvel2.version>
-        <nacos.version>3.2.4</nacos.version>
+        <nacos.version>3.3.0</nacos.version>
         <opengauss-jdbc.version>7.0.0-og</opengauss-jdbc.version>
         <operaton-bpm-spring-boot-starter-rest.version>2.2.0</operaton-bpm-spring-boot-starter-rest.version>
         <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
