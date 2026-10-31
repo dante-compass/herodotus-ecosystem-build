@@ -57,7 +57,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--Application Dependencies-->
-        <alipay-sdk-java.version>4.40.1044.ALL</alipay-sdk-java.version>
+        <alipay-sdk-java.version>4.40.1061.ALL</alipay-sdk-java.version>
         <anduin.verison>2.2.0</anduin.verison>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
