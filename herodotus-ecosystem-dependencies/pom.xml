@@ -77,7 +77,7 @@
         <jetcache.version>2.8.0.RC</jetcache.version>
         <jsonschema-generator.version>5.0.0</jsonschema-generator.version>
         <json-schema-validator.version>3.0.8</json-schema-validator.version>
-        <langchain4j.version>1.22.0</langchain4j.version>
+        <langchain4j.version>1.23.0</langchain4j.version>
         <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
         <loki-logback-appender.version>2.1.0</loki-logback-appender.version>
         <!--protobuf 要和当前系统内使用 protobuf 的版本相匹配-->
