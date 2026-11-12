@@ -61,9 +61,9 @@
         <anduin.verison>2.2.0</anduin.verison>
         <animated-gif-lib.version>1.4</animated-gif-lib.version>
         <antisamy.version>1.7.8</antisamy.version>
-        <bcpkix-jdk18on.version>1.86</bcpkix-jdk18on.version>
-        <bcprov-jdk18on.version>1.86</bcprov-jdk18on.version>
-        <bcutil-jdk18on.version>1.86</bcutil-jdk18on.version>
+        <bcpkix-jdk18on.version>1.87</bcpkix-jdk18on.version>
+        <bcprov-jdk18on.version>1.87</bcprov-jdk18on.version>
+        <bcutil-jdk18on.version>1.87</bcutil-jdk18on.version>
         <commons-collections4.version>4.6.0</commons-collections4.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.22.0</commons-io.version>
