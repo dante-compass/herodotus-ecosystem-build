@@ -59,7 +59,7 @@ herodotus-ecosystem-build
 |:--------:|------------------------------------------|---------------|--------------------|--------------------------------------------------------------|
 |  master  | Spring Boot 4.2 和 Spring Cloud 2026.0.0 | JDK 25        | 主要发布分支       | 推荐使用代码分支                                             |
 | develop  | Spring Boot 4.2 和 Spring Cloud 2026.0.0 | JDK 25        | Development 分支   | 新功能、ISSUE 均以此分支作为开发，发布后会 PR 至 master 分支 |
-|  4.1.X   | Spring Boot 4.1 和 Spring Cloud 2025.1.4 | JDK 25        | 历史版本           | 基于 Spring Boot 4.1 时代开发的代码分支，稳定可用            |
+|  4.1.X   | Spring Boot 4.1 和 Spring Cloud 2025.1.5 | JDK 25        | 历史版本           | 基于 Spring Boot 4.1 时代开发的代码分支，稳定可用            |
 |  4.0.X   | Spring Boot 4.0 和 Spring Cloud 2025.1.1 | JDK 25        | 历史版本，停止维护 | 基于 Spring Boot 4.0 时代开发的代码分支，稳定可用，不再维护            |
 
 # 五、关注我
