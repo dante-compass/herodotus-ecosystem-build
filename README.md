@@ -4,11 +4,11 @@
 ---
 
 <p align="center">
-    <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-4.1.3-blue.svg?logo=springboot" alt="Spring Boot 4.1.3"></a>
-    <a href="https://spring.io/projects/spring-cloud" target="_blank"><img src="https://img.shields.io/badge/Spring%20Cloud-2025.1.5-blue.svg?logo=springboot" alt="Spring Cloud 2025.1.5"></a>
+    <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-4.2.0-blue.svg?logo=springboot" alt="Spring Boot 4.2.0"></a>
+    <a href="https://spring.io/projects/spring-cloud" target="_blank"><img src="https://img.shields.io/badge/Spring%20Cloud-2026.0.0-blue.svg?logo=springboot" alt="Spring Cloud 2026.0.0"></a>
     <a href="https://github.com/alibaba/spring-cloud-alibaba" target="_blank"><img src="https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2025.1.0.0-blue.svg?logo=alibabadotcom" alt="Spring Cloud Alibaba 2025.1.0.0"></a>
     <a href="https://github.com/Tencent/spring-cloud-tencent" target="_blank"><img src="https://img.shields.io/badge/Spring%20Cloud%20Tencent-2.2.0.0--2025.1.1-blue.svg?logo=qq" alt="Spring Cloud Tencent 2.2.0.0-2025.1.1"></a>
-    <a href="https://spring.io/projects/spring-ai" target="_blank"><img src="https://img.shields.io/badge/Spring%20AI-2.0.3-blue.svg?logo=spring" alt="Spring AI 2.0.3"></a>
+    <a href="https://spring.io/projects/spring-ai" target="_blank"><img src="https://img.shields.io/badge/Spring%20AI-2.1.0-blue.svg?logo=spring" alt="Spring AI 2.1.0"></a>
     <a href="https://nacos.io/docs/latest/overview/" target="_blank"><img src="https://img.shields.io/badge/Nacos-3.3.0-brightgreen.svg?logo=alibabadotcom" alt="Nacos 3.3.0"></a>
 </p>
 <p align="center">
@@ -53,7 +53,16 @@ herodotus-ecosystem-build
 - 在多模块工程中，将该工程 `dependencies` 或者 BOM 对应的 pom.xml 中，以 `herodotus-ecosystem-dependencies` 作为 Parent，可实现工程内所有的依赖的版本统一化管理，并且模块关系清晰还可以作为单独 BOM 发布。
 - 在该工程的根目录下的 pom.xml 中，以 `herodotus-ecosystem-parent` 作为 Parent，可实现继承于 Spring Boot 的所有构建及依赖管理。
 
-# 四、关注我
+# 四、分支说明
+
+| 分支名称 | 对应 Spring 生态版本                     | 对应 JDK 版本 | 用途               | 现状                                                         |
+|:--------:|------------------------------------------|---------------|--------------------|--------------------------------------------------------------|
+|  master  | Spring Boot 4.2 和 Spring Cloud 2026.0.0 | JDK 25        | 主要发布分支       | 推荐使用代码分支                                             |
+| develop  | Spring Boot 4.2 和 Spring Cloud 2026.0.0 | JDK 25        | Development 分支   | 新功能、ISSUE 均以此分支作为开发，发布后会 PR 至 master 分支 |
+|  4.1.X   | Spring Boot 4.1 和 Spring Cloud 2025.1.4 | JDK 25        | 历史版本           | 基于 Spring Boot 4.1 时代开发的代码分支，稳定可用            |
+|  4.0.X   | Spring Boot 4.0 和 Spring Cloud 2025.1.1 | JDK 25        | 历史版本，停止维护 | 基于 Spring Boot 4.0 时代开发的代码分支，稳定可用，不再维护            |
+
+# 五、关注我
 
 <table align="center">
   <tr>
