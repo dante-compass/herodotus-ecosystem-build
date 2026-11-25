@@ -88,7 +88,6 @@
         <nacos.version>3.3.0</nacos.version>
         <opengauss-jdbc.version>7.0.0-og</opengauss-jdbc.version>
         <operaton-bpm-spring-boot-starter-rest.version>2.2.2</operaton-bpm-spring-boot-starter-rest.version>
-        <org.eclipse.paho.version>1.2.5</org.eclipse.paho.version>
         <p6spy.version>4.1.2</p6spy.version>
         <redisson.version>4.8.0</redisson.version>
         <skywalking.version>9.8.0</skywalking.version>
@@ -382,11 +381,6 @@
                 <groupId>org.operaton.bpm.springboot</groupId>
                 <artifactId>operaton-bpm-spring-boot-starter-rest</artifactId>
                 <version>${operaton-bpm-spring-boot-starter-rest.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.paho</groupId>
-                <artifactId>org.eclipse.paho.mqttv5.client</artifactId>
-                <version>${org.eclipse.paho.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.unikue.forkextension.p6spy</groupId>
