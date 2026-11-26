@@ -91,7 +91,7 @@
         <p6spy.version>4.1.2</p6spy.version>
         <redisson.version>4.8.0</redisson.version>
         <skywalking.version>9.8.0</skywalking.version>
-        <sms4j-spring-boot-starter.version>3.3.5</sms4j-spring-boot-starter.version>
+        <sms4j-spring-boot-starter.version>3.3.6</sms4j-spring-boot-starter.version>
         <software.amazon.awssdk.version>2.59.5</software.amazon.awssdk.version>
         <software.amazon.awssdk.crt.version>0.50.0</software.amazon.awssdk.crt.version>
         <springdoc.version>3.2.1</springdoc.version>
